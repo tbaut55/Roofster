@@ -1,0 +1,16 @@
+//
+//  Roofster-Prefix.pch
+//  Roofster
+//
+//  Created by Travis  on 2/22/16.
+//  Copyright © 2016 msse650. All rights reserved.
+//
+
+#ifndef Roofster_Prefix_pch
+#define Roofster_Prefix_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+#endif /* Roofster_Prefix_pch */
