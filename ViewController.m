@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 #import "ServiceOrder.h"
-#import "ServiceOrderSvcCoreData.h"
+#import "ServiceOrderSvcSQLite.h"
 
 @interface ViewController ()
 
@@ -38,12 +38,12 @@
 }
 
 
- ServiceOrderSvcCoreData *serviceOrderSvc = nil;
+ ServiceOrderSvcSQLite *serviceOrderSvc = nil;
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    serviceOrderSvc = [[ServiceOrderSvcCoreData alloc] init];
+    serviceOrderSvc = [[ServiceOrderSvcSQLite alloc] init];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
